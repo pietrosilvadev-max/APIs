@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 15px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Form e Filtros */
+form, .filtros {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Lista de Jogos */
+.lista-jogos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-jogo {
+  background: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  border-left: 5px solid #007bff;
+}
+
+.card-jogo button {
+  margin-right: 5px;
+  margin-top: 8px;
+}
+
+.card-jogo button:nth-of-type(1) {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.card-jogo button:nth-of-type(2) {
+  background-color: #dc3545;
+}
